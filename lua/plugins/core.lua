@@ -5,12 +5,4 @@ return {
       colorscheme = "catppuccin",
     }
   },
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        nixd = {},
-      },
-    },
-  }
 }
