@@ -3,6 +3,12 @@ return {
     "nvim-lspconfig",
     opts = {
       servers = {
+        nil_ls = {
+          mason = false,
+        },
+        clangd = {
+          mason = false,
+        },
         nixd = {
           nixd = {
             nixpkgs = {
